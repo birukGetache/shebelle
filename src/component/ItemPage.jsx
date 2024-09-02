@@ -137,12 +137,12 @@ const ItemPage = () => {
   <div style={{display:"grid" , gridTemplateColumns:"1fr 1fr 1fr" , justifyContent:"center" , marginLeft:"20px" , gap:"10px"}}>
 
 
-   <div> <FaTelegram style={IconStyle} /> <span style={{color:"black" , fontFamily:"cursive" , display:"block"}}>Telegram</span></div> 
-      <div onClick={handleTikTokClick}> <FaTiktok style={IconStyle} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>Tiktok</span>
+   <div> <FaTelegram style={IconStyle} /> <span style={{color:"black" , fontFamily:"Raleway" , display:"block"}}>Telegram</span></div> 
+      <div onClick={handleTikTokClick}> <FaTiktok style={IconStyle} /><span style={{color:"black" , fontFamily:"Raleway", display:"block"}}>Tiktok</span>
       </div>
-      <div><FaInstagram style={IconStyle} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>Instagram</span></div>
-     <div><FaFacebook style={IconStyle} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>face book</span></div>
-     <div>   <FaPhone style={{ ...IconStyle, color: '#f4ca01' }} onClick={handlePhoneClick} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>call us</span></div>
+      <div><FaInstagram style={IconStyle} /><span style={{color:"black" , fontFamily:"Raleway", display:"block"}}>Instagram</span></div>
+     <div><FaFacebook style={IconStyle} /><span style={{color:"black" , fontFamily:"Raleway", display:"block"}}>face book</span></div>
+     <div>   <FaPhone style={{ ...IconStyle, color: '#f4ca01' }} onClick={handlePhoneClick} /><span style={{color:"black" , fontFamily:"Raleway", display:"block"}}>call us</span></div>
      <div>    <a href={`mailto:${emailAddress}`} style={{textDecoration:"none"}} ><FaEnvelope style={{ ...IconStyle, color: '#f4ca01' }} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>Mail us</span></a></div>
       </div>
     </IconsContainer>
