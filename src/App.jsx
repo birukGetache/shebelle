@@ -29,7 +29,8 @@ function App() {
         <Routes>
           {isMobile ? (
             <>
-              <Route path="/" element={isHomeReady ? <Home /> : <Until />} />
+              {/* <Route path="/" element={isHomeReady ? <Home /> : <Until />} /> */}
+              <Route path="/" element={ <Home /> } />
               <Route path="/item/:name" element={<ItemPage />} />
               <Route path="/AdminEtalem" element={<Admin />} />
             </>

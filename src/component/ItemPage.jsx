@@ -110,10 +110,10 @@ const ItemPage = () => {
 
   const handleTikTokClick = () => {
     // Attempt to open TikTok app, fallback to website
-    window.location.href = 'tiktok://@shebelemenssuit?_t=8pNzMPaADGX&_r=1'; // Replace @username with the actual username
-    setTimeout(() => {
+    // window.location.href = 'tiktok://@shebelemenssuit?_t=8pNzMPaADGX&_r=1'; // Replace @username with the actual username
+    // setTimeout(() => {
       window.open('https://www.tiktok.com/@shebelemenssuit?_t=8pNzMPaADGX&_r=1', '_blank'); // Fallback to website
-    }, 1000); // Delay fallback to allow app launch
+  //  }, 1000); // Delay fallback to allow app launch
   };
   const emailAddress = "hulugeneralcommission@gmail.com";
   <a href={`mailto:${emailAddress}`} style={{ textDecoration: 'none', color: "#117BF6" }}>
