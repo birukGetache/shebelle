@@ -1,0 +1,63 @@
+[
+  
+  {
+    "id": "2",
+    "Type": "Suit",
+    "Name": "suit",
+    "Price": 300,
+    "Rate": 4.8,
+    "ImagePath": "/images/suit2.jpg",
+    "total": 5,
+    "detail": "Our suit Cake is a rich and decadent treat made with the finest cocoa. Each slice offers a moist texture and a deep chocolate flavor, perfect for satisfying any sweet tooth. It's an ideal choice for celebrations or an indulgent dessert."
+  },
+  {
+    "id": "1",
+    "Type": "shirt",
+    "Name": "shirt",
+    "Price": 200,
+    "Rate": 4.5,
+    "ImagePath": "/images/shirt.jpg",
+    "total": 5,
+    "detail": "The suit is a classic French pastry known for its flaky, buttery layers. It is baked to a golden brown perfection, offering a delicate crunch with every bite. Perfect for breakfast or as a delightful snack with coffee."
+  },
+  {
+    "id": "3",
+    "Type": "Trousers",
+    "Name": "trouser",
+    "Price": 150,
+    "Rate": 4.7,
+    "ImagePath": "/images/trouser.jpg",
+    "total": 5,
+    "detail": "A Latte is a popular suit cloth made with espresso and steamed milk. It provides a smooth and creamy texture, balanced with a strong coffee flavor. Ideal for a morning boost or a comforting afternoon pick-me-up."
+  },
+  {
+    "id": "4",
+    "Type": "Belt",
+    "Name": "belt",
+    "Price": 450,
+    "Rate": 4.3,
+    "ImagePath": "/images/belt.jpg",
+    "total": 5,
+    "detail": "Our clean suit is a refreshing beverage brewed to perfection and served chilled. It combines the bold taste of coffee with a cool, invigorating finish. Perfect for hot days or as a refreshing alternative to hot coffee."
+  },
+  {
+    "id": "5",
+    "Type": "Socks",
+    "Name": "socks",
+    "Price": 419,
+    "Rate": 4.9,
+    "ImagePath": "/images/socks.jpg",
+    "total": 5,
+    "detail": "Our good socks is a creamy, rich dessert with a smooth texture and a graham cracker crust. Each bite offers a perfect balance of sweetness and tanginess. Ideal for any occasion, it’s a favorite among dessert lovers."
+  },
+  {
+    "id": "6",
+    "Type": "shoes",
+    "Name": "shoes",
+    "Price": 419,
+    "Rate": 4.9,
+    "ImagePath": "/images/shose.jpg",
+    "total": 5,
+    "detail": "Our solid cloth is a creamy, rich dessert with a smooth texture and a graham cracker crust. Each bite offers a perfect balance of sweetness and tanginess. Ideal for any occasion, it’s a favorite among dessert lovers."
+  }
+]
