@@ -6,7 +6,7 @@ import choko from '../assets/choko (2).png';
 
 const Box = styled.div`
   height: 100vh;
-  background: linear-gradient(to bottom, #3c2f2f, #CA8A71);
+  background: linear-gradient(to bottom, #f4ca01, #CA8A71);
   ${space}
   ${layout}
   ${color}
