@@ -16,7 +16,7 @@ import data from '../data.json'
 const Card = styled.div`
   border: none;
   border-radius: 8px;
-  height:230px;
+  height:fit-content;
   margin: 10px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0.5, 0.5, 0.5, 0.5);

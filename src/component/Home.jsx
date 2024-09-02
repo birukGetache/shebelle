@@ -18,6 +18,7 @@ const NavBar = styled.nav`
   font-family: cursive;
   padding: 0;
   display: flex;
+  justify-content:center;
   font-size: 1.5rem;
   height: 90px;
  background-image: url(${img}); // Correct usage of the imported image
@@ -34,6 +35,7 @@ const P = styled.span`
   margin: 0;
   width: fit-content;
   display: flex;
+  text-align:center;
 `;
 
 const Sticky = styled.div`
@@ -100,9 +102,9 @@ const Home = () => {
       <Sticky>
         <NavBar>
           <P>Shebelle  </P>
-          <S>suit</S>
+          <S> men's suit</S>
         </NavBar>
-        <Dis>Order your favorite suit!</Dis>
+        <Dis>See your favorite suit!</Dis>
         <Search>
           <FaSearch />
           <SearchBar
