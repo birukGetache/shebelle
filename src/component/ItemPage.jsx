@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { useParams } from 'react-router-dom';
-import { FaArrowLeft } from 'react-icons/fa';
+import { FaArrowLeft, FaInstagram } from 'react-icons/fa';
 import { FaStar } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
@@ -67,7 +67,7 @@ background-color:#CA8A71;
  const Hr = styled.hr`
   border: 0;
   height: 5px;
-  background: linear-gradient(to right, #CA8A71, #CA8A71 50%, #CA8A71 50%);
+  background: linear-gradient(to right, #f4ca01, #f4ca01 50%, #CA8A71 50%);
   margin: 20px 0;
   width:90%;
   margin:auto;
@@ -86,7 +86,7 @@ flex-direction: column;
 justify-content: flex-end;
   flex-grow: 1;
 `;
-import { FaTelegram, FaTiktok, FaYoutube, FaFacebook } from 'react-icons/fa'; 
+import { FaTelegram, FaTiktok, FaPhone, FaFacebook , FaEnvelope} from 'react-icons/fa'; 
 const IconsContainer = styled.div`
   display: gird;
   gap: 20px; /* Space between icons */
@@ -95,17 +95,30 @@ const IconsContainer = styled.div`
 
 const IconStyle = {
   fontSize: '24px', // Adjust size of the icons
-  color: '#000', // Default color of the icons
+  color: '#f4ca01', // Default color of the icons
   cursor: 'pointer', // Change cursor to pointer on hover
   transition: 'color 0.3s', // Smooth color transition on hover
 };
-
 
 const ItemPage = () => {
   const navigate = useNavigate();
   const items = useSelector(state => state.items.item);
   const { name } = useParams();
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:0910862323';
+  };
 
+  const handleTikTokClick = () => {
+    // Attempt to open TikTok app, fallback to website
+    window.location.href = 'tiktok://@shebelemenssuit?_t=8pNzMPaADGX&_r=1'; // Replace @username with the actual username
+    setTimeout(() => {
+      window.open('https://www.tiktok.com/@shebelemenssuit?_t=8pNzMPaADGX&_r=1', '_blank'); // Fallback to website
+    }, 1000); // Delay fallback to allow app launch
+  };
+  const emailAddress = "hulugeneralcommission@gmail.com";
+  <a href={`mailto:${emailAddress}`} style={{ textDecoration: 'none', color: "#117BF6" }}>
+  <p style={{ padding: "0", margin: "0", display: "inline" }}>{emailAddress}</p>
+</a>
   return (
     <>
       <Arrow onClick={() => navigate("/")}></Arrow>
@@ -121,14 +134,21 @@ const ItemPage = () => {
  {/* <div style={{display:"flex", justifyContent:"center" }}><Span>{items.Price} Birr</Span></div>  */}
  <Container>
  <IconsContainer>
-      <FaTelegram style={IconStyle} /> <span style={{color:"yellow" , fontFamily:"cursive" , display:"block"}}>Telegram</span>
-      <FaTiktok style={IconStyle} /><span style={{color:"yellow" , fontFamily:"cursive", display:"block"}}>Tiktok</span>
-      <FaYoutube style={IconStyle} /><span style={{color:"yellow" , fontFamily:"cursive", display:"block"}}>Youtube</span>
-      <FaFacebook style={IconStyle} /><span style={{color:"yellowc:\Users\User\Downloads\shirt.jpg" , fontFamily:"cursive", display:"block"}}>face book</span>
+  <div style={{display:"grid" , gridTemplateColumns:"1fr 1fr 1fr" , justifyContent:"center" , marginLeft:"20px" , gap:"10px"}}>
+
+
+   <div> <FaTelegram style={IconStyle} /> <span style={{color:"black" , fontFamily:"cursive" , display:"block"}}>Telegram</span></div> 
+      <div onClick={handleTikTokClick}> <FaTiktok style={IconStyle} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>Tiktok</span>
+      </div>
+      <div><FaInstagram style={IconStyle} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>Instagram</span></div>
+     <div><FaFacebook style={IconStyle} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>face book</span></div>
+     <div>   <FaPhone style={{ ...IconStyle, color: '#f4ca01' }} onClick={handlePhoneClick} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>call us</span></div>
+     <div>    <a href={`mailto:${emailAddress}`} style={{textDecoration:"none"}} ><FaEnvelope style={{ ...IconStyle, color: '#f4ca01' }} /><span style={{color:"black" , fontFamily:"cursive", display:"block"}}>Mail us</span></a></div>
+      </div>
     </IconsContainer>
  <Hr></Hr>
     <Who>
-    Designed by <span style={{color: '#209acd',fontFamily: "Poppins", }}>HULU GENERALS</span>
+    Designed by <span style={{color: '#f4ca01',fontFamily: "Poppins", }}>HULU GENERALS</span>
   </Who>
  </Container>
 

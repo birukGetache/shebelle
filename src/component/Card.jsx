@@ -25,7 +25,7 @@ const IconsContainer = styled.div`
 
 const IconStyle = {
   fontSize: '24px', // Adjust size of the icons
-  color: '#000', // Default color of the icons
+  color: '#f4ca01', // Default color of the icons
   cursor: 'pointer', // Change cursor to pointer on hover
   transition: 'color 0.3s', // Smooth color transition on hover
 };
@@ -33,7 +33,7 @@ const IconStyle = {
 const Hr = styled.hr`
   border: 0;
   height: 5px;
-  background: linear-gradient(to right, #CA8A71, #CA8A71 50%, #CA8A71 50%);
+  background: linear-gradient(to right, #f4ca01, #f4ca01 50%, #CA8A71 50%);
   margin: 20px 0;
   width: 90%;
   margin: auto;
@@ -87,12 +87,12 @@ const Cards = ({ searchQuery }) => {
       <FaYoutube style={IconStyle} />
       <FaFacebook style={IconStyle} />
       <FaInstagram style={IconStyle} />
-      <FaPhone style={{ ...IconStyle, color: '#34b7f1' }} onClick={handlePhoneClick} />
-      <FaMapMarkerAlt style={{ ...IconStyle, color: '#34b7f1' }} onClick={handleLocationClick} />
+      <FaPhone style={{ ...IconStyle, color: '#f4ca01' }} onClick={handlePhoneClick} />
+      <FaMapMarkerAlt style={{ ...IconStyle, color: '#f4ca01' }} onClick={handleLocationClick} />
     </IconsContainer>
       <Hr />
       <Who>
-        Designed by <span style={{ color: '#209acd', fontFamily: "Dosis" ,  fontWeight:"bold" }}>HULU GENERAL</span>
+        Designed by <span style={{ color: '#f4ca01', fontFamily: "Dosis" ,  fontWeight:"bold" }}>HULU GENERAL</span>
       </Who>
     </>
   );
