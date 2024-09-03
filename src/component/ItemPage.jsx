@@ -127,7 +127,7 @@ const ItemPage = () => {
       </ImageContainer>
     <P>{items.Name}</P>
     <div style={{display:'flex'}}>
-    <Star></Star> <Pdis>{items.Rate} - 56 sold</Pdis> 
+    <Star></Star> <Pdis>{items.Rate}/5 - {items.Price}% sold</Pdis> 
     </div>
 
     <P3>{items.detail}</P3>
