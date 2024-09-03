@@ -6,12 +6,27 @@ import { setActiveTab } from '../tabsSlices';
 
 const NavBar = styled.nav`
   background-color: transparent;
-  padding: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 90px;
    overflow-x: auto;
+   white-space:no-wrap;
+    -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS devices
+  
+  // Optional: Add styles for scrollbar on Webkit browsers
+  &::-webkit-scrollbar {
+      height: 8px; /* height of the horizontal scrollbar */
+  }
+  
+  &::-webkit-scrollbar-thumb {
+      background: #888; /* color of the scroll thumb */
+      border-radius: 10px; /* round edges for the scroll thumb */
+  }
+
+  &::-webkit-scrollbar-track {
+      background: #ccc; /* color of the track */
+  }
 `;
 
 const Tab = styled.button`
