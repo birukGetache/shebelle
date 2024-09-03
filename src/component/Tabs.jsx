@@ -6,8 +6,9 @@ import { setActiveTab } from '../tabsSlices';
 
 const NavBar = styled.nav`
   background-color: transparent;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  justify-content: center;
   align-items: center;
   height: 90px;
    overflow-x: auto;
@@ -30,7 +31,7 @@ const NavBar = styled.nav`
 `;
 
 const Tab = styled.button`
-  margin: 10px;
+  margin: 8px;
   background-color: ${props => (props.active ? '#f4ca01' : '#ccc')};
   color: ${props => (props.active ? 'white' : '#f4ca01')};
   border: 2px solid ${props => (props.active ? '#f4ca01' : 'transparent')};
@@ -53,7 +54,7 @@ const Tabs = () => {
   const dispatch = useDispatch();
   return (
     <NavBar>
-      {['All', 'Suit', 'Socks', 'Belt', 'Trousers', 'shoes' , 't-shirt'].map(tab => (
+      {['All', 'Suit', 'Socks', 'Belt', 'Trousers', 'shoes' , 'shirt'].map(tab => (
         <Tab
           key={tab}
           active={activeTab === tab}
