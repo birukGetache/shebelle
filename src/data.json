@@ -8,7 +8,7 @@
     "Rate": 4.9,
     "ImagePath": "/images/suit2.jpg",
     "total": 5,
-    "detail": "Our suit Cake is a rich and decadent treat made with the finest cocoa. Each slice offers a moist texture and a deep chocolate flavor, perfect for satisfying any sweet tooth. It's an ideal choice for celebrations or an indulgent dessert."
+    "detail": "A suit is a formal outfit comprising a matching jacket and trousers, often worn with a dress shirt and tie. Known for its sophisticated appearance, suits are ideal for professional settings, formal events, and social gatherings, showcasing elegance and style while exuding confidence and professionalism."
   },
   {
     "id": "1",
@@ -18,7 +18,7 @@
     "Rate": 4.5,
     "ImagePath": "/images/shirt.jpg",
     "total": 5,
-    "detail": "The suit is a classic French pastry known for its flaky, buttery layers. It is baked to a golden brown perfection, offering a delicate crunch with every bite. Perfect for breakfast or as a delightful snack with coffee."
+    "detail": "A shirt is a versatile garment typically made of fabric, featuring a collar, sleeves, and a button-down front. It can be worn in casual or formal settings, often paired with trousers or skirts. Available in various styles, colors, and patterns, shirts are essential for expressing personal fashion and professionalism."
   },
   {
     "id": "3",
@@ -28,7 +28,7 @@
     "Rate": 4.7,
     "ImagePath": "/images/trouser.jpg",
     "total": 5,
-    "detail": "A Latte is a popular suit cloth made with espresso and steamed milk. It provides a smooth and creamy texture, balanced with a strong coffee flavor. Ideal for a morning boost or a comforting afternoon pick-me-up."
+    "detail": "Trousers are a type of clothing worn on the lower body, extending from the waist to the ankles. Typically made of various fabrics, they come in numerous styles, such as formal, casual, or sporty. Versatile and practical, trousers are essential for both everyday wear and special occasions, blending comfort with style."
   },
   {
     "id": "4",
@@ -38,7 +38,7 @@
     "Rate": 4.3,
     "ImagePath": "/images/belt.jpg",
     "total": 5,
-    "detail": "Our clean suit is a refreshing beverage brewed to perfection and served chilled. It combines the bold taste of coffee with a cool, invigorating finish. Perfect for hot days or as a refreshing alternative to hot coffee."
+    "detail": "A belt is a flexible band, usually made of leather, fabric, or synthetic materials, that is worn around the waist. Its primary function is to secure trousers or skirts in place, but it also serves as a fashion accessory to enhance an outfit. Belts come in various widths, lengths, colors, and styles, including casual or formal designs, and often feature decorative buckles. A well-chosen belt can add a touch of sophistication or personality to any look."
   },
   {
     "id": "5",
@@ -48,7 +48,7 @@
     "Rate": 4.2,
     "ImagePath": "/images/socks.jpg",
     "total": 5,
-    "detail": "Our good socks is a creamy, rich dessert with a smooth texture and a graham cracker crust. Each bite offers a perfect balance of sweetness and tanginess. Ideal for any occasion, it’s a favorite among dessert lovers."
+    "detail": "Socks are lightweight garments worn on the feet, providing comfort, warmth, and protection. They typically cover the foot and extend up to the ankle or higher, depending on the style. Made from various materials such as cotton, wool, polyester, or blends, socks come in an assortment of designs, colors, and patterns."
   },
   {
     "id": "6",
@@ -58,6 +58,6 @@
     "Rate": 4.9,
     "ImagePath": "/images/shose.jpg",
     "total": 5,
-    "detail": "Our solid cloth is a creamy, rich dessert with a smooth texture and a graham cracker crust. Each bite offers a perfect balance of sweetness and tanginess. Ideal for any occasion, it’s a favorite among dessert lovers."
+    "detail": "Shoes are footwear designed to protect and comfort the feet while allowing for movement. They come in a wide variety of styles, materials, and functions, catering to different needs, occasions, and personal preferences."
   }
 ]
